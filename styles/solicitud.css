@@ -1,0 +1,297 @@
+
+  /* CSS TABLAS EMPLEADOS */
+
+.tablas-empl-det {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.tablas-reg-det {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    border-radius: 15px 15px 0 0;
+}
+
+.tablas-empl-det p {
+    color: #1B2631;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.busc {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 12px;
+    color: #f9f9f9;
+    background: #a93226;
+    font-size: 12px;
+}
+
+.tablas-empl-det button:active {
+    transform: scale(0.9);
+}
+
+/* CSS FORMULARIO REGISTRO */
+
+.regre {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 6px 12px;
+    color: #f9f9f9;
+    background: linear-gradient(to right, #5499c7, #73c6b6);
+    font-size: 12px;
+}
+
+.formulario {
+    padding: 10px;
+}
+
+.formulario form p {
+    text-align: center;
+}
+
+.formulario .inpt-bx {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.inpt-bx input {
+    width: 49%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #1b263175;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px 25px 10px 10px;
+}
+
+.inpt-box input {
+    width: 98.5%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #1b263175;
+    border-radius: 10px;
+    font-size: 12px;
+    color: black;
+    padding: 10px 25px 10px 10px;
+}
+
+.inpt-bx input:focus{
+    border: 1px solid #1B2631;
+    box-shadow: 15px 15px 45px -20px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 15px 15px 45px -20px rgba(0,0,0,0.68);
+    -moz-box-shadow: 15px 15px 45px -20px rgba(0,0,0,0.68);
+}
+
+select {
+    padding: 9px 10px;
+    height: 100%;
+    width: 49%;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #1b263175;
+    font-size: 12px;
+}
+
+.btn-agg {
+    margin-top: 6px;
+    margin-left: 25%;
+    width: 50%;
+    height: 30px;
+    background: #a93226;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-agg:active {
+    transform: scale(0.9);
+}
+
+/* IMG FORM */
+
+.imgform {
+    position: absolute;
+    top: 29%;
+    left: 52%;
+    width: 40%;
+    height: 300px;
+}
+
+.imgform img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgform2 {
+    position: absolute;
+    top: 15%;
+    left: 52%;
+    width: 40%;
+    height: 300px;
+
+}
+
+.imgform2 img {
+    margin-top: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS LABELS FORM */
+
+.labnom {
+    position: absolute;
+    left: 2.5%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labape {
+    position: absolute;
+    left: 52%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labced {
+    position: absolute;
+    left: 2.5%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labtel {
+    position: absolute;
+    left: 52%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labcor {
+    position: absolute;
+    left: 2.5%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labsex {
+    position: absolute;
+    left: 52%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labfec {
+    position: absolute;
+    left: 2.5%;
+    bottom: 66%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labest {
+    position: absolute;
+    left: 2.5%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labmun {
+    position: absolute;
+    left: 52%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labdir {
+    position: absolute;
+    left: 8.2%;
+    bottom: 31.2%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labgrad {
+    position: absolute;
+    left: 2.5%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labprof {
+    position: absolute;
+    left: 52%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labcarg {
+    position: absolute;
+    left: 2.5%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labdisc {
+    position: absolute;
+    left: 52%;
+    bottom: 66%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}

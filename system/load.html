@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pantalla de Carga</title>
+    <link rel="stylesheet" href="../styles/load.css">
+</head>
+<body>
+    <!-- Contenedor de la Pantalla de Carga -->
+    <div class="showbox">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+            </svg>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.querySelector('.showbox').style.display = 'none';
+                window.location.href = "./index.php"; 
+            }, 1500); // Tiempo de duración de la pantalla de carga
+        });
+    </script>
+</body>
+</html>

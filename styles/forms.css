@@ -1,0 +1,146 @@
+
+.tablas-reg-det {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px;
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+    border-radius: 15px 15px 0 0;
+}
+
+.regre {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 2px;
+    padding: 7px;
+    color: #f9f9f9;
+    background: #a93226;
+    font-size: 14px;
+}
+
+.busc {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 7px;
+    color: #f9f9f9;
+    background: #a93226;
+    font-size: 14px;
+}
+
+.formulario {
+    padding: 10px;
+}
+
+.formulario form p {
+    text-align: center;
+}
+
+.formulario .inpt-bx {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.inpt-bx input {
+    width: 49%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #1b263175;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 12px 25px 12px 10px;
+}
+
+.inpt-bx input:focus{
+    border: 1px solid #1B2631;
+    box-shadow: 15px 15px 45px -20px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 15px 15px 45px -20px rgba(0,0,0,0.68);
+    -moz-box-shadow: 15px 15px 45px -20px rgba(0,0,0,0.68);
+}
+
+select {
+    width: 49%;
+    padding: 12px 25px 12px 10px;
+    height: 100%;
+    background: transparent;
+    border: 1px solid #1b263175;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.btn-agg {
+    margin-top: 6px;
+    margin-left: 25%;
+    width: 50%;
+    height: 30px;
+    background: #a93226;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-agg:active {
+    transform: scale(0.9);
+}
+
+.imgform {
+    position: absolute;
+    top: 29%;
+    left: 52%;
+    width: 40%;
+    height: 300px;
+}
+
+.imgform img {
+    max-width: 100%;
+    height: auto;
+}
+
+.labizq {
+    position: absolute;
+    left: 2.5%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labder {
+    position: absolute;
+    left: 52%;
+    bottom: 84%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labizq-baj {
+    position: absolute;
+    left: 2.5%;
+    bottom: 68%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}
+
+.labder-baj {
+    position: absolute;
+    left: 52%;
+    bottom: 66%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #1B2631;
+    background-color: #fff;
+}

@@ -1,0 +1,126 @@
+
+.tabl {
+    width: 100%;
+    margin-left: 270px;
+    margin-right: 20px;
+    height: 630px;
+    overflow: auto;
+}
+
+.tablas-empl-det {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.tablas-empl-det p {
+    color: #1B2631;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+select {
+    padding: 10px;
+    height: 100%;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #1b263175;
+    font-size: 16px;
+}
+
+.busc {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #f9f9f9;
+    background-color: #a93226;
+    font-size: 15px;
+}
+
+.nuev {
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #f9f9f9;
+    background: #58d68d;
+    font-size: 15px;
+}
+
+.tablas-empl-det button:active {
+    transform: scale(0.9);
+}
+
+.barra-busc {
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid #1B2631;
+    border-radius: 6px;
+    color: #1B2631;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+
+thead th {
+    position: sticky;
+    background-color: #a93226;
+    color: #fff;
+    font-size: 15px;
+}
+
+th, td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+
+tr:hover td {
+    background: #CCD1D1;
+    color: #1B2631;
+}
+
+td button {
+    background-color: #1B2631;
+    border-radius: 6px;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.aprov {
+   background-color: #52BE80;
+   padding: 5px 10px; 
+}
+
+.espe {
+    background-color: #F4D03F;
+    padding: 5px 10px; 
+}
+
+.deng {
+    background-color: #EC7063;
+    padding: 5px 10px; 
+}
+
+td button:active {
+    transform: scale(0.9);
+}
+
+td button i {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}

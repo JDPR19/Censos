@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="log-styles.css">
+    <title>SSJ | Inicio de Sesión</title>
+</head>
+<body>
+    <div class="container" id="container">      
+        <div class="form-container sign-in">
+            <form action="validacion-usuarios.php" method="POST">
+                <h1>Iniciar Sesión</h1>
+                <br><br>
+                <input type="text" placeholder="Usuario" name="user" required>
+                <input type="password" placeholder="Contraseña" name="passwrd" required>
+                <p>Ingrese los datos solicitados.</p>
+                <button>Ingresar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>¡Bienvenido de vuelta, usuario!</h1>
+                    <p>Ingresa tus datos para acceder al sistema <br>del Consejo Comunal</p>
+                    <p>¿Ha olvidado su contraseña?</p>
+                    <a href="./recuperar.php"><button class="hidden" id="register">Recuperar Contraseña</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
